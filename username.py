@@ -18,6 +18,25 @@ def check_all (username : str):
     print(f"\n[...] Checking for : {username}")
     list_platform = {
         "Github": "https://github.com/",
+        "Reddit": "https://www.reddit.com/user/",
+        "Instagram": "https://www.instagram.com/",
+        "TikTok": "https://www.tiktok.com/@",
+        "X": "https://x.com/",
+        "Steam": "https://steamcommunity.com/id/",
+        "Facebook": "https://www.facebook.com/",
+        "LinkedIn": "https://www.linkedin.com/in/",
+        "YouTube": "https://www.youtube.com/@",
+        "Snapchat": "https://www.snapchat.com/add/",
+        "Threads": "https://www.threads.net/@",
+        "Bluesky": "https://bsky.app/profile/",
+        "Pinterest": "https://www.pinterest.com/",
+        "Twitch": "https://www.twitch.tv/",
+        "Telegram": "https://t.me/",
+        "SoundCloud": "https://soundcloud.com/",
+        "Vimeo": "https://vimeo.com/",
+        "Flickr": "https://www.flickr.com/people/",
+        "Last.fm": "https://www.last.fm/user/",
+        "Mixcloud": "https://www.mixcloud.com/",
     }
 
     for platform, base_url in list_platform.items():
