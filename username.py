@@ -22,7 +22,7 @@ LIST_PLATFORM = {
     "Keybase":    ("https://keybase.io/", None),
 
     "Instagram": ("https://www.instagram.com/", "Sorry, this page isn't available."),
-    "TikTok":    ("https://www.tiktok.com/@", "Couldn't find this account"),
+    "TikTok": ("https://www.tiktok.com/@", "Couldn't find this account"),
     "Steam":     ("https://steamcommunity.com/id/", "The specified profile could not be found"),
     "Twitch":    ("https://www.twitch.tv/", "that content is unavailable"),
     "Reddit":    ("https://www.reddit.com/user/", "Sorry, nobody on Reddit goes by that name"),
