@@ -4,11 +4,11 @@ source ~/desktop/tor.sh
 if [ -f "/home/marg_ghost/desktop/assets/osint.txt" ]; then
     cat /home/marg_ghost/desktop/assets/osint.txt
 fi
-ehco "||=====================||"
-ehco "||  Wellcome to OSINT  ||"
-ehco "||=====================||"
-ehco "|| 1:Email  2:username ||"
-ehco "||=====================||"
+echo "||=====================||"
+echo "||  Wellcome to OSINT  ||"
+echo "||=====================||"
+echo "|| 1:Email  2:username ||"
+echo "||=====================||"
 
 if [ -z "$1" ]; then
     echo "[-] Missing type: (1 for email / 2 for username)"
@@ -22,4 +22,4 @@ elif [ "$1" == "2" ]; then
 else
     echo "[-] Ungültige Option: $1"
 fi
-
+source ~/desktop/terminate_tor.sh
